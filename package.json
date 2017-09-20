@@ -1,0 +1,15 @@
+{
+  "name": "k8s-secret-coder",
+  "version": "1.0.0",
+  "description": "Easily encode/decode kubernetes secrets manifests",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Luff <tomfluff@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yamljs": "^0.3.0"
+  },
+  "bin": { "k8s-secrets": "main.js" }
+}
