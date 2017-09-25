@@ -7,7 +7,7 @@ var fname = process.argv[3];
 
 var func;
 if (!method || (method !== "decode" && method !== "encode")) {
-  consol.error("Unknown command '" + method + "'. Must be one of 'encode' & 'decode'.");
+  console.error("Unknown command '" + method + "'. Must be one of 'encode' & 'decode'.");
   process.exit(1);
 }
 if (method === "decode") {
